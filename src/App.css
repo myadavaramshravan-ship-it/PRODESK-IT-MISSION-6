@@ -1,0 +1,286 @@
+.navbar {
+  background: black;
+  color: white;
+  padding: 20px;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-links {
+  display: flex;
+  gap: 20px;
+  padding: 10px;
+  align-items: center;
+  cursor: pointer;
+  
+}
+.nav-links a:hover {
+   transform: scale(1.1);
+}
+
+.nav-links a {
+  color: white;
+  text-decoration: none;
+}
+
+.page {
+  padding: 0px;
+}
+
+.product-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  border: 1px solid #000000;
+
+  gap: 20px;
+  padding: 20px;
+}
+
+.card {
+  border: 1px solid #0b0b0b;
+  padding: 15px;
+}
+.card.button {
+  padding: 10px;
+  cursor: pointer;
+  background-color: #007bff;
+  color: white;
+
+}
+
+.card img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.details-page {
+  padding: 30px;
+}
+
+.details-page img {
+  width: 300px;
+}
+
+
+button {
+  padding: 10px;
+  cursor: pointer;
+  background-color: #007bff;
+  color: white;
+  
+}
+.cart-item {
+  border: 1px solid #ccc;
+  margin: 20px;
+  padding: 15px;
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.cart-item img {
+  border-radius: 10px;
+}
+
+button {
+  background: black;
+  color: white;
+  border: none;
+  padding:10px;
+  padding-left: 20px;
+  cursor: pointer;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+
+button:hover {
+  opacity: 0.8;
+}
+.view-details {
+  background: #000000;
+  color: white;
+  
+}
+h1.home-heading {
+  font-size: 100px;
+  text-align: center;
+}
+.page img {
+  margin: 0px;
+  width: 100%;
+  height: 100vh;
+  object-fit: fill;
+  padding: 0px;
+}
+.details-link{
+  background-color: black;
+  color: white;
+  padding: 10px;
+  text-decoration: none;
+  padding-left: 10px;
+}
+.cart-item img{
+  width: max-content;
+  height: 200px;
+}
+.cart-item h2 {
+  font-size: 20px;
+}
+.page h1{
+  text-align: left;
+  font-size: 30px;
+  margin: 20px;
+}
+.page h2 {
+  text-align: left;
+  font-size: 20px;
+  margin-left: 20px;
+}
+
+.home {
+  height: 90vh;
+  background-size: cover;
+  background-position: center;
+  display: block;
+  justify-content: left;
+  align-items: top;
+}
+.overlay {
+  padding-left: 40px;
+  border-radius: 12px;
+  text-align:left;
+  color: white;
+}
+.overlay h1 {
+  font-size: 100px;
+
+}
+.orange{
+  color: rgb(251, 117, 0);
+}
+
+.overlay h2 {
+  font-size: 50px;
+}
+.overlay p {
+  font-size: 50px;
+  margin-bottom: 20px;
+}
+.card{
+  border-radius: 15px;
+  box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2);
+}
+.card img:hover{
+  transform: scale(1.05);
+}
+.login-link{
+  background: rgb(251, 117, 0);
+  color: white;
+  padding: 10px;
+  text-decoration: none;
+  border-radius: 20px;
+  
+}
+.contact-form{
+
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  max-width: 500px;
+  justify-content: center;
+}
+.contact-form input, .contact-form textarea {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+.contact-form button {
+  background: rgb(255, 157, 0);
+  color: white;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  border-radius: 5px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+.contact-form button:hover {
+  opacity: 0.8;
+}
+.checkout-btn {
+  background: rgb(0, 0, 0);
+  color: white;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  margin-top: 10px;
+  border-radius: 5px;
+  box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2);
+}
+.checkout-btn:hover {
+  opacity: 0.8;
+} 
+.contact-form h1 {
+  text-align: center;
+}
+h1.checkout-heading {
+  text-align: center;
+  margin: 20px;
+}
+.contact-page {
+  margin: 20px;
+  padding: 30px;
+  text-align: center;
+} 
+.contact{
+  height: 400px;
+  width: 100%;
+  border-color: #0a0a0a;
+  padding-left: 400px;
+}
+.loginpage{
+  height: 400px;
+  width: 100%;
+  border-color: #0a0a0a;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.navbar{
+  background: black;
+  color: white;
+  padding: 20px;
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  position: sticky;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+}
+.checkout-page {
+  padding: 30px;
+}
+.checkout-page h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+.checkout-page p {
+  text-align: center;
+  font-size: 20px;  
+} 
+.loginpage button {
+  background: rgb(251, 117, 0);
+  color: white;
+  border: none;
+  padding: 20px;
+  cursor: pointer;
+  border-radius: 20px;
+}
+.loginpage button:hover {
+  opacity: 0.8;
+}
