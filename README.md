@@ -1,16 +1,83 @@
-# React + Vite
+# ShopZone 🛒
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+ShopZone is a modern E-Commerce Single Page Application (SPA) built using React.js.  
+Users can browse products, view detailed product information, add items to cart, and access protected checkout routes with mock authentication.
 
-Currently, two official plugins are available:
+# 🚀 Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Routing
+- Multi-page SPA using React Router DOM
+- Dynamic product routes
+- Protected checkout route
 
-## React Compiler
+## Product Management
+- Fetch products from DummyJSON API
+- Product detail pages
+- Responsive product grid
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Cart Functionality
+- Add to Cart
+- Remove from Cart
+- Dynamic Cart Count
+- Total Price Calculation
 
-## Expanding the ESLint configuration
+## Authentication
+- Mock Login System
+- Protected Routes
+- Unauthorized user redirection
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Persistence
+- Cart data saved using localStorage
+# 🛠️ Tech Stack
+- React.js
+- React Router DOM
+- Context API
+- Standard CSS
+- Vite
+# 🌐 API Used
+DummyJSON Products API
+https://dummyjson.com/products
+
+# 📂 Project Structure
+```bash
+src/
+│
+├── components/
+├── context/
+├── pages/
+├── App.jsx
+├── App.css
+├── main.jsx
+└── index.css
+
+Run development server:
+
+```bash
+npm run dev
+```
+
+---
+
+# 🔐 Mock Authentication
+
+This project uses mock authentication using React Context API.
+
+Users must login before accessing the checkout page.
+
+---
+
+# 🛒 Protected Routes
+
+The `/checkout` route is protected using React Router.
+
+Unauthorized users are automatically redirected to the login page.
+
+# 🚀 Deployment
+
+Deployed using Vercel.
+
+---
+
+# 👨‍💻 Author
+
+Shravan
